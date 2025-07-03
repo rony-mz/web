@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos | Restaurante Diego's</title>
+    <link rel="stylesheet" href="STLYLE.CSS">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+<header class="header" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/masterdg6aekaj7lbee5hbc6f49acic.jpg'); background-size: cover; background-position: center;">
+    <div class="menu container">
+         <a href="INDEX.HTML" class="logo">RESTAURANT DIEGO'S</a>
+         <input type="checkbox" id="menu"/>
+         <label for="menu">
+            <img src="https://cdn-icons-png.flaticon.com/512/6015/6015685.png" class="menu-icono" alt="menu" style="filter: invert(1);">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content container">
+        <div class="header-txt">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para atenderte</p>
+        </div>
+    </div>
+</header>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-content">
+            <!-- Formulario -->
+            <div class="contact-form">
+                <h2>Envíanos un mensaje</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefono">Teléfono (opcional)</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Seleccione un tema</option>
+                            <option value="reserva">Reserva de mesa</option>
+                            <option value="evento">Eventos especiales</option>
+                            <option value="consulta">Consulta general</option>
+                            <option value="reclamo">Reclamo o sugerencia</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Enviar mensaje</button>
+                </form>
+            </div>
+            
+            
+            <div class="contact-info">
+                <h2>Información de contacto</h2>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Av. Lima 1245, Tarapoto, Perú</p>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+51 987 654 321</p>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@diegosrestaurante.com</p>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Lunes a Domingo: 11:00 am - 10:00 pm</p>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+            <p>© DIEGO'S, 2025. Todos los derechos reservados.</p>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="INDEX.HTML">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
